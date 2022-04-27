@@ -30,10 +30,10 @@ public class FindController {
 	@FXML TextField findInputId;
 	@FXML TextField findInputName;
 	
-    String DRIVER="oracle.jdbc.driver.OracleDriver";
-	String URL="jdbc:oracle:thin:@localhost:1521:orcl";
-	String USER="system";
-	String PASS="1234";
+	String DRIVER="com.mysql.cj.jdbc.Driver";
+	String URL="jdbc:mysql://localhost/signup";
+	String USER="root";
+	String PASS="0000";
 	
     public Connection getConn() { //¿¬°á
         Connection con=null;
