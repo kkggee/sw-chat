@@ -44,7 +44,7 @@ public class Main extends Application{
 	public void start(Stage primaryStage) throws Exception{
 		Parent root=FXMLLoader.load(getClass().getResource("Main.fxml"));
 		Scene scene=new Scene(root);
-		
+		// System.out.println("hi");
 		primaryStage.setTitle("Main");
         primaryStage.setScene(scene);
         primaryStage.show();
